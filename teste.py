@@ -316,6 +316,14 @@ while i < len(palavra):
 print('Nova palavra %s' %troca)
 '''
 # Faça um programa que solicite a data de nascimento (dd/mm/aaaa)e imprima com o nome do mês por extenso
+from collections import defaultdict
+
+names_dict = defaultdict(list)
+names_dict["Bob"] = 1
+names_dict["Katie"] = 2
+sara_number = names_dict["Sara"]
+print(names_dict)
+
 
 
 
